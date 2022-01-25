@@ -25,3 +25,19 @@
 ## Arrow Function
 1. É um encurtamento das funções
 - <i>(args) => {}</i>
+
+## Manipulação de classes 
+1. classList // DOMTokenList
+2. className // string
+3. classList.add('ativo', 'mobile') // adiciona classes
+4. classList.remove('ativo')
+5. classList.toggle('ativo') adiciona se não tiver, remove se tiver
+6. classList.contains('ativo) // true or false
+7. classList.replace('ativo', 'inativo')
+8. attributes // NamedNodeList -> retorna uma lista de atributos que existem no objeto
+9. getAttribute('src) // pega o valor do src
+10. setAttribute('alt', 'Texto Alternativo')
+11. removeAttribute('alt')
+12. hasAttribute('alt')
+
+

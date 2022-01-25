@@ -27,3 +27,11 @@ forEach
         console.log(index)
     })
 */
+
+const menu = document.querySelector('.menu')
+console.log(menu.classList)
+menu.classList.add('ativo')
+console.log(menu.classList)
+menu.classList.remove('ativo')
+console.log(menu.classList)
+console.log(menu.classList.contains('ativo'))
