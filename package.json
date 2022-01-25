@@ -1,0 +1,20 @@
+{
+  "name": "animais-fantasticos",
+  "version": "1.0.0",
+  "description": "1. document.getElementById('id_do_elemento') 2. document.getElementsByClassName('class_dos_elementos') 3. document.getElementsByTagName('class_dos_elementos') - Nos casos por TAG e por CLASS, é retornado um HTMLCollection (dinâmico) de elementos; - Nos casos por CLASS, caso seja passado mais que uma classe, será retornado elementos que possuam ambas; - Caso o elemento selecionado não exista, será retornado <i>null</i>; 4. querySelector('.classe, #id, tag') - É o mesmo selector para o CSS - Podemos buscar dentro de outros elementos: - const lista = document.querySelector('ul').querySelector('li') 5. querySelectorAll('.classe) - Retorna uma NodeList (estático) - Possui forEach",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipalds/animais-fantasticos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felipalds/animais-fantasticos/issues"
+  },
+  "homepage": "https://github.com/Felipalds/animais-fantasticos#readme"
+}

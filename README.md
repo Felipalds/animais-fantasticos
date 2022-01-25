@@ -17,3 +17,11 @@
 ## Arrays front-end
 1. HTMLCollection não é um array nem um NodeList, portanto não possui métodos como o forEach()
 - Podemos transformar NodeList e HTMLCollection em Arrays puros: <i> Array.from(lista)
+
+## forEach()
+1. forEach é um método de arrays, que recebe sempre uma função de callback como parâmetro
+- <i>array.forEach(function(item, index, array){})</i>
+
+## Arrow Function
+1. É um encurtamento das funções
+- <i>(args) => {}</i>
